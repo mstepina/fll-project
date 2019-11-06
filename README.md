@@ -16,9 +16,10 @@ Make sure you work on your own branch!
 
 ```git branch```
 
-> *<span style="color:green"> *name_of_branch*</span>
-
->  master
+```console
+*<span style="color:green"> *name_of_branch*</span>
+master
+```
 
 ```git add files_to_add``
 
