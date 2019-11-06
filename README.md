@@ -8,16 +8,18 @@ Make sure you work on your own branch!
 
 ```git branch```
 
->  *name_of_your_branch*
+```console
+name_of_your_branch
+master
+```
 
-> *<span style="color: green"> master</span>
 
 ```git checkout name_of_your_branch```
 
 ```git branch```
 
-```console
-*<span style="color:green"> *name_of_branch*</span>
+```
+*name_of_branch
 master
 ```
 
