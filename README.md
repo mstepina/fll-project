@@ -5,6 +5,7 @@ Make sure you work on your own branch!
 # How to make your own branch?
 
 Start by creating your new branch
+
 ```git branch name_of_your_branch```
 
 Check what branches exist at the moment using
