@@ -18,10 +18,12 @@ Make sure you work on your own branch!
 
 ```git branch```
 
-<span style="color:black">```console
+<span style="color:black">
+```console
 * name_of_branch
  master
-```</span>
+```
+</span>
 
 ```git add files_to_add```
 
