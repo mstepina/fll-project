@@ -9,8 +9,8 @@ Make sure you work on your own branch!
 ```git branch```
 
 ```console
-name_of_your_branch
-master
+ name_of_your_branch
+* master
 ```
 
 
@@ -18,13 +18,16 @@ master
 
 ```git branch```
 
-```
-*name_of_branch
-master
+```console
+* name_of_branch
+ master
 ```
 
-```git add files_to_add``
+```git add files_to_add```
 
 ```git commit -m "message of feature added"```
 
-```git push --set-upstream origin name_of_branch``
+only use the first time you push to your branch
+```git push --set-upstream origin name_of_branch```
+then just use
+```git push```
