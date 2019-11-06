@@ -8,7 +8,7 @@ Make sure you work on your own branch!
 
 ```git branch```
 
-```console
+```bash
  name_of_your_branch
 * master
 ```
