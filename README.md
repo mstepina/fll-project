@@ -4,15 +4,15 @@ Make sure you work on your own branch!
 
 # How to make your own branch?
 
-start by creating your branch
+Start by creating your branch
 
 ```git branch name_of_your_branch```
 
-check what branches exist at the moment using
+Check what branches exist at the moment using
 
 ```git branch```
 
-you should see that the master branch is currently active
+You should see that the master branch is currently active
 
 ```bash
  name_of_your_branch
@@ -23,11 +23,11 @@ Move into your folder
 
 ```git checkout name_of_your_branch```
 
-check you are in your folder
+Check you are in your folder
 
 ```git branch```
 
-your folder should now have the asterisk next to it indicating that the branch is now active
+Your folder should now have the asterisk next to it indicating that the branch is now active
 
 ```bash
 * name_of_branch
