@@ -12,3 +12,6 @@ Make sure you work on your own branch!
 ```git branch```
 > * <span style="color:green">*name_of_branch*</span>
 >  master
+```git add files_to_add``
+```git commit -m "message of feature added"```
+```git push --set-upstream origin name of branch``
