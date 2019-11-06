@@ -14,4 +14,4 @@ Make sure you work on your own branch!
 >  master
 ```git add files_to_add``
 ```git commit -m "message of feature added"```
-```git push --set-upstream origin name of branch``
+```git push --set-upstream origin name_of_branch``
