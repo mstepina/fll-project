@@ -28,6 +28,8 @@ app.get('/', (req, res) => res.render('index', { layout: 'landing' }));
 
 // Gig routes
 app.use('/gigs', require('./routes/gigs'));
+app.use('/students', require('./routes/students'));
+app.use('/groups', require('./routes/groups'));
 
 const PORT = process.env.PORT || 5000;
 

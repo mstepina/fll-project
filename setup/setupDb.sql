@@ -16,3 +16,4 @@ create table students
 );
 
 INSERT INTO public.students (first_name, last_name, id, biography, date_of_birth, competitiveness, createdat, modifedat, experience, location) VALUES ('Steven', 'SONG', 1, 'Im a highschool student looking to join a team', '2020-01-16', 1, '2020-01-16', '2020-01-16', 10, '6600 Dumbarton Circle');
+
