@@ -1,5 +1,4 @@
-import * as firebase from 'firebase';
-
+import firebase from 'firebase';
 
 const config = {
     apiKey: "AIzaSyBMXRNqyOpJMZkXyxJRx2m2FuOg5gMWm74",
@@ -12,8 +11,4 @@ const config = {
     measurementId: "G-SSXGSDJ4FK"
 };
 firebase.initializeApp(config);
-firebase.analytics();
-const databaseRef = firebase.database().ref();
-
-export const todosRef = databaseRef.child("todos")
-// Your web app's Firebase configuration
+export default firebase

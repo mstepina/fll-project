@@ -1,26 +1,57 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
 import './App.css';
+import firebase from 'firebase';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+    constructor() {
+        super();
+        this.state = {
+            currentItem: "",
+            username: "",
+        }
+    }
+
+    handleChange(e) {
+        this.setState({
+            [e.target.name]: e.target.value
+        });
+    }
+
+    render() {
+        return (
+            <div className='app'>
+                <header>
+                    <div className='wrapper'>
+                        <h1>Fun Food Friends</h1>
+
+                    </div>
+                </header>
+                <div className='container'>
+                    <section className='add-item'>
+                        <form>
+                            <input
+                                type="text"
+                                name="username"
+                                placeholder="What's your name?"
+                                onChange={this.handleChange} value={this.state.username}/>
+                            <input
+                                type="text"
+                                name="currentItem"
+                                placeholder="What are you bringing?"
+                                onChange={this.handleChange}
+                                value={this.state.currentItem} />
+                            <button>Add Item</button>
+                        </form>
+                    </section>
+                    <section className='display-item'>
+                        <div className='wrapper'>
+                            <ul>
+                            </ul>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        );
+    }
 }
-
 export default App;
